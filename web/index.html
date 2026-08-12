@@ -7,26 +7,7 @@
   <title>neofoxi — software developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- Inline script to prevent language flash — runs before first paint -->
-  <script>
-    (function () {
-      var SUPPORTED = ['en','de','fr','es','zh-CN'];
-      var m = document.cookie.match(new RegExp('(^| )lang=([^;]+)'));
-      var lang;
-      if (m && SUPPORTED.indexOf(m[2]) !== -1) {
-        lang = m[2];
-      } else {
-        var raw = navigator.language || '';
-        var n = raw.toLowerCase();
-        if (n === 'zh-cn' || n === 'zh-hans' || n.slice(0,2) === 'zh') {
-          lang = 'zh-CN';
-        } else {
-          lang = SUPPORTED.indexOf(raw.slice(0,2)) !== -1 ? raw.slice(0,2) : 'en';
-        }
-      }
-      document.documentElement.lang = lang;
-    })();
-  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <!-- Inline script to prevent theme flash — runs before first paint -->
   <script>
     (function () {
@@ -35,14 +16,7 @@
       document.documentElement.dataset.theme = theme;
     })();
   </script>
-  <!-- Async: Google Fonts (non-render-blocking) -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-  <!-- Async: Font Awesome (non-render-blocking) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/index.css" />
   <script type="module" src="/index.js"></script>
 </head>
@@ -51,10 +25,7 @@
   <header>
     <div class="container">
       <a href="/" class="logo"></a>
-      <div class="header-controls">
-        <div id="lang-select"></div>
-        <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
-      </div>
+      <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
     </div>
   </header>
 
@@ -62,147 +33,24 @@
     <section class="hero">
       <div class="container">
         <h1>
-          <span data-lang="hero.line1">I build things</span><br />
-          <span data-lang-html="hero.line2">for the <span class="highlight">digital</span> world</span>
+          I build things<br />
+          for the <span class="highlight">digital</span> world
         </h1>
-        <p data-lang="hero.subtitle">
-          I am a Software developer who cares about
-          good design, I build software to last.
+        <p>
+          Software developer who cares about
+          good design and software that's built to last.
         </p>
       </div>
     </section>
 
-    <section class="stats container animate-fade-in-up" id="stats">
+    <section class="stats container" id="stats">
       <!-- rendered by index.js -->
     </section>
-    <p class="stats-source container animate-fade-in-up" data-lang="stats.source">Live from GitHub</p>
 
-    <section class="container animate-fade-in-up">
-      <h2 class="section-heading" data-lang="section.findMeOn">Find me on</h2>
-      <div class="social-links animate-fade-in-up" id="social-links">
+    <section class="container">
+      <h2 class="section-heading">Find me on</h2>
+      <div class="social-links" id="social-links">
         <!-- rendered by index.js -->
-      </div>
-    </section>
-
-    <!-- ============ My Work ============ -->
-    <section class="work-section">
-      <div class="work-header animate-fade-in-up">
-        <h2>
-          <span class="work-heading-static" data-lang="work.headingPrefix"></span>
-          <span class="line-break" data-lang="work.headingHighlight"></span>
-        </h2>
-      </div>
-
-      <div class="work-grid">
-
-        <article class="work-item animate-fade-in-up animate-delay-1">
-          <a class="work-item__cover work-item__cover--hardrevival" href="https://hardrevival.net" target="_blank" rel="noopener" aria-label="HardRevival">
-            <i class="fa-solid fa-skull"></i>
-          </a>
-          <div class="work-item__body">
-            <div class="work-item__top">
-              <h3 class="work-item__title">HardRevival</h3>
-            </div>
-            <p class="work-item__desc" data-lang="work.hardrevival.desc"></p>
-            <ul class="work-item__features">
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.hardrevival.features.0"></span></li>
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.hardrevival.features.1"></span></li>
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.hardrevival.features.2"></span></li>
-            </ul>
-            <div class="work-item__tags">
-              <span class="work-tag" data-lang="work.hardrevival.tags.0"></span>
-              <span class="work-tag" data-lang="work.hardrevival.tags.1"></span>
-              <span class="work-tag" data-lang="work.hardrevival.tags.2"></span>
-            </div>
-            <a class="work-item__cta" href="https://hardrevival.net" target="_blank" rel="noopener">
-              <span data-lang="work.visit"></span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </article>
-
-        <article class="work-item animate-fade-in-up animate-delay-2">
-          <a class="work-item__cover work-item__cover--atelier" href="https://atelierdufour.ch" target="_blank" rel="noopener" aria-label="Atelier Dufour">
-            <i class="fa-solid fa-palette"></i>
-          </a>
-          <div class="work-item__body">
-            <div class="work-item__top">
-              <h3 class="work-item__title">Atelier Dufour</h3>
-            </div>
-            <p class="work-item__desc" data-lang="work.atelier.desc"></p>
-            <ul class="work-item__features">
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.atelier.features.0"></span></li>
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.atelier.features.1"></span></li>
-              <li><i class="fa-solid fa-check"></i><span data-lang="work.atelier.features.2"></span></li>
-            </ul>
-            <div class="work-item__tags">
-              <span class="work-tag" data-lang="work.atelier.tags.0"></span>
-              <span class="work-tag" data-lang="work.atelier.tags.1"></span>
-              <span class="work-tag" data-lang="work.atelier.tags.2"></span>
-            </div>
-            <a class="work-item__cta" href="https://atelierdufour.ch" target="_blank" rel="noopener">
-              <span data-lang="work.visit"></span> <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- ============ How Can I Help You? ============ -->
-    <section class="help-section">
-      <div class="help-header animate-fade-in-up">
-        <h2>
-          <span class="help-heading-static" data-lang="help.headingPrefix"></span>
-          <span class="line-break" data-lang="help.headingHighlight"></span>
-        </h2>
-      </div>
-
-      <div class="help-grid">
-
-        <div class="help-card help-card--youtube animate-fade-in-up animate-delay-1">
-          <div class="help-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="12" fill="var(--help-card-yt-bg)"/>
-              <path class="icon-fill" d="M14 17a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2H16a2 2 0 01-2-2V17zm18 0H16v10h16V17zm-6 12h-4v2h-2v-2h-4v2a2 2 0 002 2h10a2 2 0 002-2v-2h-4zM19 21l-2 1.5 2 1.5M29 21l2 1.5-2 1.5" fill="var(--help-card-icon)"/>
-            </svg>
-          </div>
-          <h3 class="help-card__title" data-lang="help.buildWebsite.title">Build a Website</h3>
-          <p class="help-card__desc" data-lang="help.buildWebsite.desc">A custom, modern website tailored to your vision &mdash; fast, responsive, and built to last.</p>
-        </div>
-
-        <div class="help-card help-card--grades animate-fade-in-up animate-delay-2">
-          <div class="help-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="12" fill="var(--help-card-grades-bg)"/>
-              <path class="icon-fill" d="M17 13a2 2 0 00-2 2v20a2 2 0 002 2h14a2 2 0 002-2V15a2 2 0 00-2-2H17zm0 4h14v16H17V17zm7 18a1 1 0 100 2 1 1 0 000-2zM21 20h2v2h-2v-2zm4 0h2v2h-2v-2zm-4 4h2v2h-2v-2zm4 0h2v2h-2v-2z" fill="var(--help-card-icon)"/>
-            </svg>
-          </div>
-          <h3 class="help-card__title" data-lang="help.buildApp.title">Build an App</h3>
-          <p class="help-card__desc" data-lang="help.buildApp.desc">Turn your idea into a real mobile or web application &mdash; from concept to launch and beyond.</p>
-        </div>
-
-        <div class="help-card help-card--productivity animate-fade-in-up animate-delay-3">
-          <div class="help-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="12" fill="var(--help-card-prod-bg)"/>
-              <path class="icon-fill" d="M24 14l-8 10 8 14 8-10-8-14zm0 5l4 5-4 7-4-5 4-7z" fill="var(--help-card-icon)"/>
-            </svg>
-          </div>
-          <h3 class="help-card__title" data-lang="help.minecraft.title">Minecraft Project?</h3>
-          <p class="help-card__desc" data-lang="help.minecraft.desc">A custom plugin, datapack, or mod &mdash; simple items to complex combat systems for your server or friends.</p>
-        </div>
-
-        <div class="help-card help-card--business animate-fade-in-up animate-delay-4">
-          <div class="help-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="12" fill="var(--help-card-biz-bg)"/>
-              <path class="icon-fill" d="M16 25a4 4 0 01-4-4v-2a4 4 0 014-4h16a4 4 0 014 4v2a4 4 0 01-4 4H16zm-2-4a2 2 0 002 2h16a2 2 0 002-2v-2a2 2 0 00-2-2H16a2 2 0 00-2 2v2zm7-1h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-9 6h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-10 4h12v2H18v-2z" fill="var(--help-card-icon)"/>
-            </svg>
-          </div>
-          <h3 class="help-card__title" data-lang="help.buildGame.title">Build a Game</h3>
-          <p class="help-card__desc" data-lang="help.buildGame.desc">Had a game idea you never got to play? Let's bring it to life &mdash; from concept to playable reality.</p>
-        </div>
-
       </div>
     </section>
   </main>
