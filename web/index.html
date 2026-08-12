@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Software developer — building things for the web" />
+  <title>neofoxi — software developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Inline script to prevent theme flash — runs before first paint -->
+  <script>
+    (function () {
+      var m = document.cookie.match(new RegExp('(^| )theme=([^;]+)'));
+      var theme = m ? m[2] : 'light';
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/index.css" />
+  <script type="module" src="/index.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="/" class="logo"></a>
+      <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          I build things<br />
+          for the <span class="highlight">digital</span> world
+        </h1>
+        <p>
+          Software developer who cares about
+          good design and software that's built to last.
+        </p>
+      </div>
+    </section>
+
+    <section class="stats container" id="stats">
+      <!-- rendered by index.js -->
+    </section>
+
+    <section class="container">
+      <h2 class="section-heading">Find me on</h2>
+      <div class="social-links" id="social-links">
+        <!-- rendered by index.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container" id="footer-content"></div>
+  </footer>
+
+</body>
+</html>
