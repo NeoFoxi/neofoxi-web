@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "line1": "I build things",
+    "line2": "for the <span class=\"highlight\">digital</span> world",
+    "subtitle": "I'm a software developer who values good design. I create software that stands the test of time."
+  },
+  "section": {
+    "findMeOn": "Find me on"
+  },
+  "help": {
+    "headingPrefix": "How Can",
+    "headingHighlight": "I Help You?",
+    "buildWebsite": {
+      "title": "Build a Website",
+      "desc": "A custom, modern website tailored to your vision — fast, responsive, and built to last."
+    },
+    "buildApp": {
+      "title": "Build an App",
+      "desc": "Turn your idea into a real mobile or web application — from concept to launch and beyond."
+    },
+    "minecraft": {
+      "title": "Minecraft Project?",
+      "desc": "A custom plugin, datapack, or mod — simple items to complex combat systems for your server or friends."
+    },
+    "buildGame": {
+      "title": "Build a Game",
+      "desc": "Had a game idea you never got to play? Let's bring it to life — from concept to playable reality."
+    }
+  },
+  "work": {
+    "headingPrefix": "Things I've",
+    "headingHighlight": "built",
+    "hardrevival": {
+      "desc": "The complete HardRevival Minecraft project — I set up the entire server from scratch and programmed the custom mod behind the brutal PvP hardcore experience. The landing page adds a dark glitch aesthetic, live leaderboards, per-player statistics and a real-time Discord community counter.",
+      "tags": [
+        "Minecraft Server",
+        "Custom Mod",
+        "Landing Page"
+      ],
+      "features": [
+        "Full server setup — infrastructure, configuration and deployment",
+        "Custom-programmed mod: Life Saver, death structures and revival rituals",
+        "Landing page with live leaderboard and Discord online counter"
+      ]
+    },
+    "atelier": {
+      "desc": "Website for Atelier Dufour, an art studio in Biel/Bienne. A warm, gallery-like site with a full-screen image slideshow, creative workshops for kids and young people, and an integral clay offer (INTON®).",
+      "tags": [
+        "Art Studio",
+        "Workshops",
+        "Portfolio"
+      ],
+      "features": [
+        "Full-screen slideshow gallery of the studio's work",
+        "Workshop pages — chocolate casting, papier-mâché, screen printing, open studio",
+        "Integral clay sessions with times, prices and contact"
+      ]
+    },
+    "visit": "Visit website"
+  },
+  "stats": {
+    "repositories": "repositories",
+    "commits": "commits / 30d",
+    "source": "Live from GitHub"
+  },
+  "social": {
+    "github": "GitHub",
+    "patreon": "Patreon",
+    "youtube": "YouTube"
+  }
+}
