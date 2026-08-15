@@ -1,8 +1,8 @@
 {
   "hero": {
-    "line1": "Ich baue Dinge",
-    "line2": "für die <span class=\"highlight\">digitale</span> Welt",
-    "subtitle": "Ich bin ein Softwareentwickler, dem gutes Design wichtig ist. Ich erschaffe Software, die Bestand hat."
+    "line1": "Ich baue Dinge, die halten",
+    "line2": "in der <span class=\"highlight\">digitalen</span> Welt",
+    "subtitle": "Ich bin ein Softwareentwickler, der daran glaubt, dass wahres Design tiefer geht als die Oberfläche. Intuitives UI/UX nach außen, robuste Architektur nach innen — gebaut für die Ewigkeit."
   },
   "section": {
     "findMeOn": "Finde mich auf"
@@ -25,7 +25,8 @@
     "buildGame": {
       "title": "Spiel entwickeln",
       "desc": "Hattest du eine Spielidee, die du nie spielen konntest? Lass sie Wirklichkeit werden — vom Konzept zur spielbaren Realität."
-    }
+    },
+    "contactBtn": "Kontaktiere mich"
   },
   "work": {
     "headingPrefix": "Was ich",
@@ -66,6 +67,10 @@
   "social": {
     "github": "GitHub",
     "patreon": "Patreon",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "badgeContact": "Kontakt",
+    "badgeRepos": "Repos",
+    "badgeMembership": "Mitglied",
+    "badgeChannel": "Kanal"
   }
 }

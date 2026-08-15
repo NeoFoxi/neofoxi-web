@@ -1,8 +1,8 @@
 {
   "hero": {
-    "line1": "我搭建东西",
-    "line2": "为【<span class=\"highlight\">数字</span>】世界",
-    "subtitle": "我是一名软件开发人员，非常重视优秀的设计。我致力于开发经得起时间考验的软件。"
+    "line1": "我打造经久之作",
+    "line2": "在【<span class=\"highlight\">数字</span>】世界",
+    "subtitle": "我是一名软件开发人员，相信真正的设计不止于表面。外有直觉性 UI/UX，内有稳健架构——为持久而生。"
   },
   "section": {
     "findMeOn": "在这些平台找到我"
@@ -25,7 +25,8 @@
     "buildGame": {
       "title": "制作游戏",
       "desc": "有一个从未实现的游戏想法吗？让我们把它变为现实 — 从概念到可玩的真实体验。"
-    }
+    },
+    "contactBtn": "联系我"
   },
   "work": {
     "headingPrefix": "我搭建的",
@@ -66,6 +67,10 @@
   "social": {
     "github": "GitHub",
     "patreon": "Patreon",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "badgeContact": "联系",
+    "badgeRepos": "仓库",
+    "badgeMembership": "会员",
+    "badgeChannel": "频道"
   }
 }

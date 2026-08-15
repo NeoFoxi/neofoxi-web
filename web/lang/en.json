@@ -1,8 +1,8 @@
 {
   "hero": {
-    "line1": "I build things",
-    "line2": "for the <span class=\"highlight\">digital</span> world",
-    "subtitle": "I'm a software developer who values good design. I create software that stands the test of time."
+    "line1": "I build things to last",
+    "line2": "in the <span class=\"highlight\">digital</span> world",
+    "subtitle": "I'm a software developer who believes true design goes deeper than the surface. Intuitive UI/UX on the outside, robust architecture on the inside—built to last."
   },
   "section": {
     "findMeOn": "Find me on"
@@ -25,7 +25,8 @@
     "buildGame": {
       "title": "Build a Game",
       "desc": "Had a game idea you never got to play? Let's bring it to life — from concept to playable reality."
-    }
+    },
+    "contactBtn": "Contact Me"
   },
   "work": {
     "headingPrefix": "Things I've",
@@ -66,6 +67,10 @@
   "social": {
     "github": "GitHub",
     "patreon": "Patreon",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "badgeContact": "contact",
+    "badgeRepos": "repos",
+    "badgeMembership": "membership",
+    "badgeChannel": "channel"
   }
 }

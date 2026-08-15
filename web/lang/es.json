@@ -1,8 +1,8 @@
 {
   "hero": {
-    "line1": "Construyo cosas",
-    "line2": "para el mundo <span class=\"highlight\">digital</span>",
-    "subtitle": "Soy un desarrollador de software para quien el buen diseño es importante. Creo software que perdura."
+    "line1": "Construyo cosas para durar",
+    "line2": "en el mundo <span class=\"highlight\">digital</span>",
+    "subtitle": "Soy un desarrollador de software que cree que el verdadero diseño va más allá de la superficie. UI/UX intuitivo por fuera, arquitectura robusta por dentro — hecho para durar."
   },
   "section": {
     "findMeOn": "Encuéntrame en"
@@ -25,7 +25,8 @@
     "buildGame": {
       "title": "Crear un juego",
       "desc": "¿Tienes una idea de juego que nunca pudiste probar? Hagámosla realidad — del concepto a una experiencia jugable."
-    }
+    },
+    "contactBtn": "Contáctame"
   },
   "work": {
     "headingPrefix": "Lo que he",
@@ -66,6 +67,10 @@
   "social": {
     "github": "GitHub",
     "patreon": "Patreon",
-    "youtube": "YouTube"
+    "youtube": "YouTube",
+    "badgeContact": "contacto",
+    "badgeRepos": "repos",
+    "badgeMembership": "membresía",
+    "badgeChannel": "canal"
   }
 }

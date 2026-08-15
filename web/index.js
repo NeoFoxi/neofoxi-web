@@ -149,13 +149,16 @@ async function render() {
 
   // Social links
   socialContainer.appendChild(
-    createSocialButton({ href: SITE.links.github, label: t('social.github'), icon: 'fa-brands fa-github', badge: 'repos' }),
+    createSocialButton({ href: `mailto:${SITE.email}`, label: SITE.email, icon: 'fas fa-envelope', badge: t('social.badgeContact') }),
+  ).classList.add('animate-fade-in-up', 'animate-delay-0');
+  socialContainer.appendChild(
+    createSocialButton({ href: SITE.links.github, label: t('social.github'), icon: 'fa-brands fa-github', badge: t('social.badgeRepos') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-1');
   socialContainer.appendChild(
-    createSocialButton({ href: SITE.links.patreon, label: t('social.patreon'), icon: 'fa-brands fa-patreon', badge: 'membership' }),
+    createSocialButton({ href: SITE.links.patreon, label: t('social.patreon'), icon: 'fa-brands fa-patreon', badge: t('social.badgeMembership') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-2');
   socialContainer.appendChild(
-    createSocialButton({ href: SITE.links.youtube, label: t('social.youtube'), icon: 'fa-brands fa-youtube', badge: 'channel' }),
+    createSocialButton({ href: SITE.links.youtube, label: t('social.youtube'), icon: 'fa-brands fa-youtube', badge: t('social.badgeChannel') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-3');
 
   // Footer
