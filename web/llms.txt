@@ -1,0 +1,28 @@
+# NeoFoxi
+
+> NeoFoxi is a software developer building fast, responsive websites, web and
+> mobile apps, games, and custom Minecraft plugins, datapacks and mods.
+
+NeoFoxi is an independent software developer focused on intuitive UI/UX on the
+surface and robust architecture underneath. Work spans client websites,
+cross-platform apps, game projects, and Minecraft server tooling — software
+built to last.
+
+## Core pages
+- [Home](https://neofoxi.net/): Portfolio, services and selected work (HardRevival, Atelier Dufour).
+- [GitHub](https://neofoxi.net/github/): Redirect to github.com/NeoFoxi — source code and open projects.
+- [Patreon](https://neofoxi.net/patreon/): Redirect to patreon.com/Technik_Wunder — membership and support.
+- [YouTube](https://neofoxi.net/youtube/): Redirect to youtube.com/@NeoFoxi — videos and project demos.
+
+## Selected work
+- [HardRevival](https://hardrevival.net): Hardcore PvP Minecraft server, custom mod, and landing page with live leaderboards.
+- [Atelier Dufour](https://atelierdufour.ch): Website for an art studio in Biel/Bienne, Switzerland.
+
+## Related llms.txt
+- [HardRevival llms.txt](https://hardrevival.net/llms.txt): machine-readable index for the HardRevival Minecraft project.
+- [Atelier Dufour llms.txt](https://atelierdufour.ch/llms.txt): machine-readable index for the Atelier Dufour art studio website.
+
+## Profiles
+- [GitHub](https://github.com/NeoFoxi)
+- [Patreon](https://www.patreon.com/Technik_Wunder)
+- [YouTube](https://youtube.com/@NeoFoxi)
