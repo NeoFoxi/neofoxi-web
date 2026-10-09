@@ -1,0 +1,40 @@
+{
+  "name": "NeoFoxi",
+  "url": "https://neofoxi.net",
+  "description": "Portfolio of NeoFoxi, an independent software developer building fast, responsive websites, web and mobile apps, games, and custom Minecraft plugins, datapacks and mods — built to last.",
+  "type": "portfolio",
+  "language": "en",
+  "availableLanguages": ["en", "de", "fr", "es", "zh-CN"],
+  "keywords": [
+    "software developer",
+    "web development",
+    "app development",
+    "game development",
+    "Minecraft plugins",
+    "Minecraft datapacks",
+    "Minecraft mods",
+    "UI/UX design"
+  ],
+  "selectedWork": [
+    {
+      "name": "HardRevival",
+      "url": "https://hardrevival.net",
+      "description": "Hardcore PvP Minecraft server with a custom-programmed mod (Life Saver, death structures, revival rituals) and a landing page with live leaderboards and a Discord online counter."
+    },
+    {
+      "name": "Atelier Dufour",
+      "url": "https://atelierdufour.ch",
+      "description": "Website for an art studio in Biel/Bienne, Switzerland — gallery-like design, full-screen slideshow, creative workshops and an integral clay offer."
+    }
+  ],
+  "profiles": [
+    { "name": "GitHub", "url": "https://github.com/NeoFoxi" },
+    { "name": "Patreon", "url": "https://www.patreon.com/Technik_Wunder" },
+    { "name": "YouTube", "url": "https://youtube.com/@NeoFoxi" }
+  ],
+  "contact": {
+    "email": "m@neofoxi.net",
+    "security": "https://neofoxi.net/.well-known/security.txt"
+  },
+  "lastModified": "2026-10-09"
+}

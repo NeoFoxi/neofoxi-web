@@ -9,7 +9,7 @@ cross-platform apps, game projects, and Minecraft server tooling — software
 built to last.
 
 ## Core pages
-- [Home](https://neofoxi.net/): Portfolio, services and selected work (HardRevival, Atelier Dufour).
+- [Home](https://neofoxi.net): Portfolio, services and selected work (HardRevival, Atelier Dufour).
 - [GitHub](https://neofoxi.net/github/): Redirect to github.com/NeoFoxi — source code and open projects.
 - [Patreon](https://neofoxi.net/patreon/): Redirect to patreon.com/Technik_Wunder — membership and support.
 - [YouTube](https://neofoxi.net/youtube/): Redirect to youtube.com/@NeoFoxi — videos and project demos.

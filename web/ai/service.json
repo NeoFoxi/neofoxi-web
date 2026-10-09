@@ -1,0 +1,29 @@
+{
+  "provider": "NeoFoxi",
+  "url": "https://neofoxi.net",
+  "description": "Independent software developer offering custom software development — from responsive websites and cross-platform apps to games and Minecraft server tooling.",
+  "services": [
+    {
+      "name": "Website Development",
+      "description": "Custom, modern websites tailored to the client's vision — fast, responsive, and built to last.",
+      "examples": ["Portfolio sites", "Business websites", "Studio and gallery websites (e.g. atelierdufour.ch)"]
+    },
+    {
+      "name": "App Development",
+      "description": "Turning ideas into real mobile or web applications — from concept to launch and beyond."
+    },
+    {
+      "name": "Minecraft Development",
+      "description": "Custom plugins, datapacks and mods — from simple items to complex combat systems for servers or friends. Includes full server setup, configuration and deployment.",
+      "examples": ["Hardcore PvP server mod with Life Saver, death structures and revival rituals (hardrevival.net)"]
+    },
+    {
+      "name": "Game Development",
+      "description": "Bringing game ideas to life — from concept to playable reality."
+    }
+  ],
+  "contact": {
+    "email": "m@neofoxi.net"
+  },
+  "lastModified": "2026-10-09"
+}
