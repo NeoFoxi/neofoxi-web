@@ -2,7 +2,7 @@
  * Footer module — renders the site footer with email, license links and
  * social buttons. Social links are driven by config.
  *
- * @param {{ email: string, links: { github: string, patreon: string, youtube: string, discord: string } }} cfg
+ * @param {{ email: string, links: { github: string, youtube: string, discord: string } }} cfg
  * @returns {DocumentFragment}
  */
 
@@ -10,7 +10,6 @@ import { t } from '../lang/index.js';
 
 const SOCIAL_DEFS = [
   { key: 'github',  icon: 'fa-brands fa-github', label: 'GitHub' },
-  { key: 'patreon', icon: 'fa-brands fa-patreon', label: 'Patreon' },
   { key: 'youtube', icon: 'fa-brands fa-youtube', label: 'YouTube' },
   { key: 'discord', icon: 'fa-brands fa-discord', label: 'Discord' },
 ];

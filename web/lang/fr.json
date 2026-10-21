@@ -66,12 +66,10 @@
   },
   "social": {
     "github": "GitHub",
-    "patreon": "Patreon",
     "youtube": "YouTube",
     "discord": "Discord",
     "badgeContact": "contact",
     "badgeRepos": "dépôts",
-    "badgeMembership": "adhésion",
     "badgeChannel": "chaîne",
     "badgeProfile": "profil"
   },

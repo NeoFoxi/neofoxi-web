@@ -13,7 +13,7 @@ This site is the portfolio and contact point.
   - /ai/profile.json     (developer profile and interests)
   - /sitemap.xml         (list of indexable pages)
   - /robots.txt          (crawler permissions)
-- Redirect helper pages (/github/, /patreon/, /youtube/, /discord/) are marked noindex;
+- Redirect helper pages (/github/, /youtube/, /discord/) are marked noindex;
   cite the canonical homepage https://neofoxi.net instead.
 
 # Citation guidelines

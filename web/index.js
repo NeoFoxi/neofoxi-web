@@ -27,7 +27,6 @@ const SITE = {
   email: 'm@neofoxi.net',
   links: {
     github: '/github',
-    patreon: '/patreon',
     youtube: '/youtube',
     discord: '/discord',
   },
@@ -156,14 +155,11 @@ async function render() {
     createSocialButton({ href: SITE.links.github, label: t('social.github'), icon: 'fa-brands fa-github', badge: t('social.badgeRepos') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-1');
   socialContainer.appendChild(
-    createSocialButton({ href: SITE.links.patreon, label: t('social.patreon'), icon: 'fa-brands fa-patreon', badge: t('social.badgeMembership') }),
+    createSocialButton({ href: SITE.links.youtube, label: t('social.youtube'), icon: 'fa-brands fa-youtube', badge: t('social.badgeChannel') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-2');
   socialContainer.appendChild(
-    createSocialButton({ href: SITE.links.youtube, label: t('social.youtube'), icon: 'fa-brands fa-youtube', badge: t('social.badgeChannel') }),
-  ).classList.add('animate-fade-in-up', 'animate-delay-3');
-  socialContainer.appendChild(
     createSocialButton({ href: SITE.links.discord, label: t('social.discord'), icon: 'fa-brands fa-discord', badge: t('social.badgeProfile') }),
-  ).classList.add('animate-fade-in-up', 'animate-delay-4');
+  ).classList.add('animate-fade-in-up', 'animate-delay-3');
 
   // Footer
   footerEl.appendChild(renderFooter(SITE));

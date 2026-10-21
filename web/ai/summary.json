@@ -29,7 +29,6 @@
   ],
   "profiles": [
     { "name": "GitHub", "url": "https://github.com/NeoFoxi" },
-    { "name": "Patreon", "url": "https://www.patreon.com/Technik_Wunder" },
     { "name": "YouTube", "url": "https://youtube.com/@NeoFoxi" },
     { "name": "Discord", "url": "https://discord.com/users/1416514573900714055" }
   ],
