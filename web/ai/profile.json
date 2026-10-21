@@ -25,5 +25,5 @@
   "contact": {
     "email": "m@neofoxi.net"
   },
-  "lastModified": "2026-10-21"
+  "lastModified": "{{BUILD_DATE}}"
 }

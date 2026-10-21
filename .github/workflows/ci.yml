@@ -24,8 +24,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set privacy build date
-        run: sed -i "s|{{BUILD_DATE}}|$(date -u +%F)|g" web/privacy/index.html web/sitemap.xml
+      - name: Set build date
+        run: |
+          BUILD_DATE="$(date -u +%F)"
+          grep -rlZ '{{BUILD_DATE}}' web | xargs -0 sed -i "s|{{BUILD_DATE}}|$BUILD_DATE|g"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

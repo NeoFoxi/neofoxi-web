@@ -68,10 +68,12 @@
     "github": "GitHub",
     "patreon": "Patreon",
     "youtube": "YouTube",
+    "discord": "Discord",
     "badgeContact": "contact",
     "badgeRepos": "repos",
     "badgeMembership": "membership",
-    "badgeChannel": "channel"
+    "badgeChannel": "channel",
+    "badgeProfile": "profile"
   },
   "footer": {
     "privacy": "Privacy",

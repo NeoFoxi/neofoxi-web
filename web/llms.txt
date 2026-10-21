@@ -12,6 +12,7 @@ apps, game projects, and Minecraft server tooling — software built to last.
 - [GitHub](https://neofoxi.net/github/): Redirect to github.com/NeoFoxi — source code and open projects.
 - [Patreon](https://neofoxi.net/patreon/): Redirect to patreon.com/Technik_Wunder — membership and support.
 - [YouTube](https://neofoxi.net/youtube/): Redirect to youtube.com/@NeoFoxi — videos and project demos.
+- [Discord](https://neofoxi.net/discord/): Redirect to the NeoFoxi Discord profile.
 
 ## Selected work
 - [HardRevival](https://hardrevival.net): Hardcore PvP Minecraft server, custom mod, and landing page with live leaderboards.
@@ -25,3 +26,4 @@ apps, game projects, and Minecraft server tooling — software built to last.
 - [GitHub](https://github.com/NeoFoxi)
 - [Patreon](https://www.patreon.com/Technik_Wunder)
 - [YouTube](https://youtube.com/@NeoFoxi)
+- [Discord](https://discord.com/users/1416514573900714055)

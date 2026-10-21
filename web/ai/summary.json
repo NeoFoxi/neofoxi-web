@@ -30,11 +30,12 @@
   "profiles": [
     { "name": "GitHub", "url": "https://github.com/NeoFoxi" },
     { "name": "Patreon", "url": "https://www.patreon.com/Technik_Wunder" },
-    { "name": "YouTube", "url": "https://youtube.com/@NeoFoxi" }
+    { "name": "YouTube", "url": "https://youtube.com/@NeoFoxi" },
+    { "name": "Discord", "url": "https://discord.com/users/1416514573900714055" }
   ],
   "contact": {
     "email": "m@neofoxi.net",
     "security": "https://neofoxi.net/.well-known/security.txt"
   },
-  "lastModified": "2026-10-09"
+  "lastModified": "{{BUILD_DATE}}"
 }

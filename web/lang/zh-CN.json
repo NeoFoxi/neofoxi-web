@@ -68,10 +68,12 @@
     "github": "GitHub",
     "patreon": "Patreon",
     "youtube": "YouTube",
+    "discord": "Discord",
     "badgeContact": "联系",
     "badgeRepos": "仓库",
     "badgeMembership": "会员",
-    "badgeChannel": "频道"
+    "badgeChannel": "频道",
+    "badgeProfile": "个人主页"
   },
   "footer": {
     "privacy": "隐私",

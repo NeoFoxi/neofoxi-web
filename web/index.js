@@ -29,6 +29,7 @@ const SITE = {
     github: '/github',
     patreon: '/patreon',
     youtube: '/youtube',
+    discord: '/discord',
   },
 };
 
@@ -160,6 +161,9 @@ async function render() {
   socialContainer.appendChild(
     createSocialButton({ href: SITE.links.youtube, label: t('social.youtube'), icon: 'fa-brands fa-youtube', badge: t('social.badgeChannel') }),
   ).classList.add('animate-fade-in-up', 'animate-delay-3');
+  socialContainer.appendChild(
+    createSocialButton({ href: SITE.links.discord, label: t('social.discord'), icon: 'fa-brands fa-discord', badge: t('social.badgeProfile') }),
+  ).classList.add('animate-fade-in-up', 'animate-delay-4');
 
   // Footer
   footerEl.appendChild(renderFooter(SITE));
