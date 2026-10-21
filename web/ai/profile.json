@@ -1,0 +1,29 @@
+{
+  "name": "NeoFoxi",
+  "url": "https://neofoxi.net",
+  "description": "Portfolio of NeoFoxi, an independent software developer. Websites, web and mobile apps, games, and Minecraft plugins, datapacks and mods.",
+  "focus": [
+    {
+      "name": "Web Development",
+      "description": "Modern, responsive websites with clean UI and solid architecture underneath.",
+      "examples": ["Portfolio sites", "Personal websites", "Studio and gallery websites (e.g. atelierdufour.ch)"]
+    },
+    {
+      "name": "App Development",
+      "description": "Web and mobile applications, from an idea to something people can actually use."
+    },
+    {
+      "name": "Minecraft Development",
+      "description": "Plugins, datapacks and mods — from small items to full combat systems, including server setup and configuration.",
+      "examples": ["Hardcore PvP server mod with Life Saver, death structures and revival rituals (hardrevival.net)"]
+    },
+    {
+      "name": "Game Development",
+      "description": "Small games and prototypes, from the first concept to something playable."
+    }
+  ],
+  "contact": {
+    "email": "m@neofoxi.net"
+  },
+  "lastModified": "2026-10-21"
+}

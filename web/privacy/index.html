@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy — NeoFoxi</title>
+  <meta name="description" content="Privacy notice for neofoxi.net: hosting, cookies and GitHub statistics." />
+  <link rel="canonical" href="https://neofoxi.net/privacy/" />
+  <meta name="robots" content="index, follow" />
+  <!-- Inline script to prevent language flash — runs before first paint -->
+  <script>
+    (function () {
+      var SUPPORTED = ['en','de','fr','es','zh-CN'];
+      var m = document.cookie.match(new RegExp('(^| )lang=([^;]+)'));
+      var lang;
+      if (m && SUPPORTED.indexOf(m[2]) !== -1) {
+        lang = m[2];
+      } else {
+        var raw = navigator.language || '';
+        var n = raw.toLowerCase();
+        if (n === 'zh-cn' || n === 'zh-hans' || n.slice(0,2) === 'zh') {
+          lang = 'zh-CN';
+        } else {
+          lang = SUPPORTED.indexOf(raw.slice(0,2)) !== -1 ? raw.slice(0,2) : 'en';
+        }
+      }
+      document.documentElement.lang = lang;
+    })();
+  </script>
+  <!-- Inline script to prevent theme flash — runs before first paint -->
+  <script>
+    (function () {
+      var m = document.cookie.match(new RegExp('(^| )theme=([^;]+)'));
+      var theme = m ? m[2] : 'light';
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/index.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo"></a>
+      <div class="header-controls">
+        <div id="lang-select"></div>
+        <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="legal-page">
+    <a class="legal-page__back" href="/">&larr; NeoFoxi</a>
+
+    <h1 data-lang="privacy.title">Privacy</h1>
+
+    <p data-lang-html="privacy.controller">Controller: NeoFoxi, <a href="mailto:m@neofoxi.net">m@neofoxi.net</a>.</p>
+
+    <h2 data-lang="privacy.hostingTitle">Hosting</h2>
+    <p data-lang="privacy.hosting">This site is hosted on GitHub Pages (GitHub Inc., USA). GitHub processes connection data such as your IP address in server logs to deliver and secure the site. Legal basis: Art. 6(1)(f) GDPR; transfer under the EU-US Data Privacy Framework.</p>
+
+    <h2 data-lang="privacy.cookiesTitle">Cookies</h2>
+    <p data-lang="privacy.cookiesIntro">The site stores two first-party cookies, both for one year:</p>
+    <ul>
+      <li data-lang="privacy.langCookie">lang — your language. Set only when you select a non-English language.</li>
+      <li data-lang="privacy.themeCookie">theme — light or dark mode. Set when you toggle the theme.</li>
+    </ul>
+    <p data-lang="privacy.cookiesNote">Both are technically necessary for the function you requested (§ 25(2)(2) TDDDG), so no consent banner is needed. Legal basis: Art. 6(1)(f) GDPR. You can delete them in your browser at any time.</p>
+
+    <h2 data-lang="privacy.githubTitle">GitHub statistics</h2>
+    <p data-lang="privacy.github">The statistics section loads numbers directly from api.github.com, transmitting your IP address and user agent to GitHub Inc. (USA). Legal basis: Art. 6(1)(f) GDPR; transfer under the EU-US Data Privacy Framework. No cookies are set.</p>
+
+    <h2 data-lang="privacy.fontsTitle">Fonts and icons</h2>
+    <p data-lang="privacy.fonts">Fonts are loaded from Google Fonts and icons from cdnjs (Cloudflare). When the page loads, your IP address and user agent are transmitted to these providers. Legal basis: Art. 6(1)(f) GDPR; transfers are based on the providers' EU-US Data Privacy Framework certification or standard contractual clauses.</p>
+
+    <h2 data-lang="privacy.contactTitle">Contact</h2>
+    <p data-lang="privacy.contact">If you email me, your address and message are processed to answer your request (Art. 6(1)(b) or (f) GDPR) and deleted when no longer needed.</p>
+
+    <h2 data-lang="privacy.rightsTitle">Your rights</h2>
+    <p data-lang="privacy.rights">You have the right to access, rectify, erase, restrict, and port your data, and to object to processing. You may also complain to a supervisory authority. Contact: m@neofoxi.net.</p>
+
+    <p data-lang="privacy.noTracking">No analytics, tracking, or automated decision-making is used.</p>
+
+    <p><span data-lang="privacy.updated">Last updated:</span> <time datetime="{{BUILD_DATE}}">{{BUILD_DATE}}</time></p>
+  </main>
+
+  <script type="module" src="/privacy/index.js"></script>
+</body>
+</html>

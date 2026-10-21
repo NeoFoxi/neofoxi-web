@@ -10,7 +10,7 @@ This site is the portfolio and contact point.
 - Machine-readable content is available at:
   - /llms.txt            (site index for LLMs)
   - /ai/summary.json     (site summary for AI engines)
-  - /ai/service.json     (services offered)
+  - /ai/profile.json     (developer profile and interests)
   - /sitemap.xml         (list of indexable pages)
   - /robots.txt          (crawler permissions)
 - Redirect helper pages (/github/, /patreon/, /youtube/) are marked noindex;

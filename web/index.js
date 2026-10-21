@@ -7,12 +7,12 @@
  * loaded via dynamic import() after the hero renders.
  */
 
-import { getTheme, toggleTheme } from './src/theme/index.js';
+import { getTheme, toggleTheme } from './modules/theme/index.js';
 import {
   init, t, getLang, setLang, onChange,
   createCustomLangSelect,
-} from './src/lang/index.js';
-import { observeReveal } from './src/animations/index.js';
+} from './modules/lang/index.js';
+import { observeReveal } from './modules/animations/index.js';
 
 /* ---------- one-time setup ---------- */
 
@@ -43,7 +43,7 @@ toggleBtn.addEventListener('click', () => {
 
 // Start loading the module in parallel with everything else so the fetch
 // begins as early as possible. The module dedups concurrent calls.
-const githubModulePromise = import('./src/github/index.js');
+const githubModulePromise = import('./modules/github/index.js');
 
 function renderStats(gen, stats, createStatCard) {
   statsContainer.innerHTML = '';
@@ -138,10 +138,10 @@ async function render() {
     { createSocialButton },
     { renderFooter },
   ] = await Promise.all([
-    import('./src/stats/index.js'),
-    import('./src/github/index.js'),
-    import('./src/social/index.js'),
-    import('./src/footer/index.js'),
+    import('./modules/stats/index.js'),
+    import('./modules/github/index.js'),
+    import('./modules/social/index.js'),
+    import('./modules/footer/index.js'),
   ]);
 
   // Stats — render instantly from cache if present, else show loading and fetch.

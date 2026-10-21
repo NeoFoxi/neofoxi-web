@@ -22,9 +22,6 @@
   <meta name="twitter:title" content="NeoFoxi — Software Developer" />
   <meta name="twitter:description" content="Fast websites, web and mobile apps, games and custom Minecraft plugins, datapacks and mods — built to last." />
   <meta name="twitter:image" content="https://neofoxi.net/images/og/neofoxi.webp" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
   <!-- Inline script to prevent language flash — runs before first paint -->
   <script>
     (function () {
@@ -53,14 +50,11 @@
       document.documentElement.dataset.theme = theme;
     })();
   </script>
-  <!-- Async: Google Fonts (non-render-blocking) -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'" />
-  <!-- Async: Font Awesome (non-render-blocking) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  </noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="/index.css" />
   <script type="module" src="/index.js"></script>
   <script type="application/ld+json">
@@ -85,12 +79,6 @@
           "https://github.com/NeoFoxi",
           "https://www.patreon.com/Technik_Wunder",
           "https://youtube.com/@NeoFoxi"
-        ],
-        "makesOffer": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Development" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "App Development" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Game Development" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Minecraft Development" } }
         ]
       },
       {
@@ -208,12 +196,12 @@
       </div>
     </section>
 
-    <!-- ============ How Can I Help You? ============ -->
+    <!-- ============ What I Work On ============ -->
     <section class="help-section">
       <div class="help-header animate-fade-in-up">
         <h2>
-          <span class="help-heading-static" data-lang="help.headingPrefix">How Can</span>
-          <span class="line-break" data-lang="help.headingHighlight">I Help You?</span>
+          <span class="help-heading-static" data-lang="help.headingPrefix">What I</span>
+          <span class="line-break" data-lang="help.headingHighlight">work on</span>
         </h2>
       </div>
 
@@ -226,8 +214,8 @@
               <path class="icon-fill" d="M14 17a2 2 0 012-2h16a2 2 0 012 2v10a2 2 0 01-2 2H16a2 2 0 01-2-2V17zm18 0H16v10h16V17zm-6 12h-4v2h-2v-2h-4v2a2 2 0 002 2h10a2 2 0 002-2v-2h-4zM19 21l-2 1.5 2 1.5M29 21l2 1.5-2 1.5" fill="var(--help-card-icon)"/>
             </svg>
           </div>
-          <h3 class="help-card__title" data-lang="help.buildWebsite.title">Build a Website</h3>
-          <p class="help-card__desc" data-lang="help.buildWebsite.desc">A custom, modern website tailored to your vision &mdash; fast, responsive, and built to last.</p>
+          <h3 class="help-card__title" data-lang="help.buildWebsite.title">Websites</h3>
+          <p class="help-card__desc" data-lang="help.buildWebsite.desc">Modern, responsive websites with clean UI and solid architecture underneath.</p>
         </div>
 
         <div class="help-card help-card--grades animate-fade-in-up animate-delay-2">
@@ -237,8 +225,8 @@
               <path class="icon-fill" d="M17 13a2 2 0 00-2 2v20a2 2 0 002 2h14a2 2 0 002-2V15a2 2 0 00-2-2H17zm0 4h14v16H17V17zm7 18a1 1 0 100 2 1 1 0 000-2zM21 20h2v2h-2v-2zm4 0h2v2h-2v-2zm-4 4h2v2h-2v-2zm4 0h2v2h-2v-2z" fill="var(--help-card-icon)"/>
             </svg>
           </div>
-          <h3 class="help-card__title" data-lang="help.buildApp.title">Build an App</h3>
-          <p class="help-card__desc" data-lang="help.buildApp.desc">Turn your idea into a real mobile or web application &mdash; from concept to launch and beyond.</p>
+          <h3 class="help-card__title" data-lang="help.buildApp.title">Apps</h3>
+          <p class="help-card__desc" data-lang="help.buildApp.desc">Web and mobile applications, taken from an idea to something people can actually use.</p>
         </div>
 
         <div class="help-card help-card--productivity animate-fade-in-up animate-delay-3">
@@ -248,8 +236,8 @@
               <path class="icon-fill" d="M24 14l-8 10 8 14 8-10-8-14zm0 5l4 5-4 7-4-5 4-7z" fill="var(--help-card-icon)"/>
             </svg>
           </div>
-          <h3 class="help-card__title" data-lang="help.minecraft.title">Minecraft Project?</h3>
-          <p class="help-card__desc" data-lang="help.minecraft.desc">A custom plugin, datapack, or mod &mdash; simple items to complex combat systems for your server or friends.</p>
+          <h3 class="help-card__title" data-lang="help.minecraft.title">Minecraft</h3>
+          <p class="help-card__desc" data-lang="help.minecraft.desc">Plugins, datapacks and mods &mdash; from small items to full combat systems.</p>
         </div>
 
         <div class="help-card help-card--business animate-fade-in-up animate-delay-4">
@@ -259,12 +247,12 @@
               <path class="icon-fill" d="M16 25a4 4 0 01-4-4v-2a4 4 0 014-4h16a4 4 0 014 4v2a4 4 0 01-4 4H16zm-2-4a2 2 0 002 2h16a2 2 0 002-2v-2a2 2 0 00-2-2H16a2 2 0 00-2 2v2zm7-1h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-9 6h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-10 4h12v2H18v-2z" fill="var(--help-card-icon)"/>
             </svg>
           </div>
-          <h3 class="help-card__title" data-lang="help.buildGame.title">Build a Game</h3>
-          <p class="help-card__desc" data-lang="help.buildGame.desc">Had a game idea you never got to play? Let's bring it to life &mdash; from concept to playable reality.</p>
+          <h3 class="help-card__title" data-lang="help.buildGame.title">Games</h3>
+          <p class="help-card__desc" data-lang="help.buildGame.desc">Small games and prototypes, from the first concept to something playable.</p>
         </div>
 
       </div>
-      <a href="#find-me-on" class="help-contact-btn animate-fade-in-up" data-lang="help.contactBtn">Contact</a>
+      <a href="#find-me-on" class="help-contact-btn animate-fade-in-up" data-lang="help.contactBtn">Get in touch</a>
     </section>
   </main>
 

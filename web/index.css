@@ -698,8 +698,9 @@ footer .container {
   flex-wrap: wrap;
 }
 
-/* Email link — shows the actual address */
-.footer-email {
+/* Email and legal links */
+.footer-email,
+.footer-legal-link {
   font-size: 0.82rem;
   color: var(--text-secondary);
   text-decoration: none;
@@ -707,7 +708,8 @@ footer .container {
   white-space: nowrap;
 }
 
-.footer-email:hover {
+.footer-email:hover,
+.footer-legal-link:hover {
   color: var(--accent);
 }
 
@@ -751,7 +753,82 @@ footer .container {
 }
 
 /* =========================================================
-   Help section — "How Can I Help You?" cards
+   Legal pages (privacy)
+   ========================================================= */
+
+.legal-page {
+  width: min(720px, 100%);
+  margin: 0 auto;
+  padding: 56px clamp(16px, 4vw, 24px) 96px;
+  flex: 1;
+}
+
+.legal-page__back {
+  display: inline-block;
+  margin-bottom: 28px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.legal-page__back:hover {
+  color: var(--accent);
+}
+
+.legal-page h1 {
+  font-size: clamp(30px, 4vw, 42px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.legal-page h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 26px 0 8px;
+}
+
+.legal-page p,
+.legal-page li {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.legal-page p {
+  margin-bottom: 12px;
+}
+
+.legal-page ul {
+  margin: 0 0 12px 1.2em;
+}
+
+.legal-page li {
+  margin-bottom: 4px;
+}
+
+.legal-page a {
+  color: var(--accent);
+}
+
+.legal-page hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 44px 0;
+}
+
+.legal-page time {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+/* =========================================================
+   Help section — "What I Work On" cards
    ========================================================= */
 
 .help-section {
@@ -774,6 +851,10 @@ footer .container {
 
 .help-header h2 .line-break {
   display: block;
+  /* line-height is tighter than Inter's natural metrics, so extend the
+     background box to keep descenders (g, j, q, y) painted. */
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
   background: linear-gradient(135deg, var(--accent), #a78bfa);
   background-clip: text;
   -webkit-background-clip: text;
@@ -996,6 +1077,10 @@ footer .container {
 
 .work-header h2 .line-break {
   display: block;
+  /* See .help-header .line-break — keeps descenders like the "g" in
+     "gebaut" from being cut off by the gradient text box. */
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
   background: linear-gradient(135deg, var(--accent), #a78bfa);
   background-clip: text;
   -webkit-background-clip: text;

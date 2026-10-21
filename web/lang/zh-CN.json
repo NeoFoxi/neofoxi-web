@@ -8,23 +8,23 @@
     "findMeOn": "在这些平台找到我"
   },
   "help": {
-    "headingPrefix": "我能",
-    "headingHighlight": "帮你做什么？",
+    "headingPrefix": "我",
+    "headingHighlight": "在做什么",
     "buildWebsite": {
-      "title": "建立网站",
-      "desc": "一个根据你的愿景定制的现代网站 — 快速、响应式、经久耐用。"
+      "title": "网站",
+      "desc": "现代、响应式的网站，界面简洁，底层架构扎实。"
     },
     "buildApp": {
-      "title": "开发应用",
-      "desc": "将你的想法转变为真实的移动或网络应用 — 从概念到发布及以后。"
+      "title": "应用",
+      "desc": "Web 和移动应用，从最初的想法到真正可用的产品。"
     },
     "minecraft": {
-      "title": "Minecraft 项目？",
-      "desc": "自定义插件、数据包或模组 — 从简单物品到复杂战斗系统，适合你的服务器或朋友。"
+      "title": "Minecraft",
+      "desc": "插件、数据包和模组 — 从简单物品到完整的战斗系统。"
     },
     "buildGame": {
-      "title": "制作游戏",
-      "desc": "有一个从未实现的游戏想法吗？让我们把它变为现实 — 从概念到可玩的真实体验。"
+      "title": "游戏",
+      "desc": "小型游戏和原型，从最初的概念到可玩的体验。"
     },
     "contactBtn": "联系我"
   },
@@ -72,5 +72,31 @@
     "badgeRepos": "仓库",
     "badgeMembership": "会员",
     "badgeChannel": "频道"
+  },
+  "footer": {
+    "privacy": "隐私",
+    "interLicense": "Inter 许可证",
+    "fontAwesomeLicense": "Font Awesome 许可证"
+  },
+  "privacy": {
+    "title": "隐私",
+    "controller": "控制者：NeoFoxi，<a href=\"mailto:m@neofoxi.net\">m@neofoxi.net</a>。",
+    "hostingTitle": "托管",
+    "hosting": "本网站托管于 GitHub Pages（GitHub Inc.，美国）。GitHub 会在服务器日志中处理 IP 地址等连接数据，以提供并保护网站。法律依据：GDPR 第 6 条第 1 款 f 项；传输依据欧盟-美国数据隐私框架。",
+    "cookiesTitle": "Cookie",
+    "cookiesIntro": "网站存储两个第一方 Cookie，有效期均为一年：",
+    "langCookie": "lang — 你的语言。仅当你选择非英语语言时设置。",
+    "themeCookie": "theme — 浅色或深色模式。切换主题时设置。",
+    "cookiesNote": "两者都是提供你所请求功能所必需的技术性存储（TDDDG 第 25 条第 2 款第 2 项），因此无需同意横幅。法律依据：GDPR 第 6 条第 1 款 f 项。你可以随时在浏览器中删除它们。",
+    "githubTitle": "GitHub 统计",
+    "github": "统计部分直接从 api.github.com 加载数据，这会将你的 IP 地址和用户代理传输给 GitHub Inc.（美国）。法律依据：GDPR 第 6 条第 1 款 f 项；传输依据欧盟-美国数据隐私框架。此请求不设置 Cookie。",
+    "fontsTitle": "字体和图标",
+    "fonts": "字体从 Google Fonts 加载，图标从 cdnjs（Cloudflare）加载。页面加载时，你的 IP 地址和用户代理会传输给这些提供商。法律依据：GDPR 第 6 条第 1 款 f 项；传输依据提供商的欧盟-美国数据隐私框架认证或标准合同条款。",
+    "contactTitle": "联系方式",
+    "contact": "如果你给我发邮件，你的地址和邮件内容将被处理以回复你的请求（GDPR 第 6 条第 1 款 b 或 f 项），并在不再需要时删除。",
+    "rightsTitle": "你的权利",
+    "rights": "你有权访问、更正、删除、限制处理、携带数据以及反对处理。你也可以向监管机构投诉。联系方式：m@neofoxi.net。",
+    "noTracking": "不使用分析、跟踪或自动化决策。",
+    "updated": "最后更新："
   }
 }

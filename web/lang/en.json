@@ -8,25 +8,25 @@
     "findMeOn": "Find me on"
   },
   "help": {
-    "headingPrefix": "How Can",
-    "headingHighlight": "I Help You?",
+    "headingPrefix": "What I",
+    "headingHighlight": "work on",
     "buildWebsite": {
-      "title": "Build a Website",
-      "desc": "A custom, modern website tailored to your vision — fast, responsive, and built to last."
+      "title": "Websites",
+      "desc": "Modern, responsive websites with clean UI and solid architecture underneath."
     },
     "buildApp": {
-      "title": "Build an App",
-      "desc": "Turn your idea into a real mobile or web application — from concept to launch and beyond."
+      "title": "Apps",
+      "desc": "Web and mobile applications, taken from an idea to something people can actually use."
     },
     "minecraft": {
-      "title": "Minecraft Project?",
-      "desc": "A custom plugin, datapack, or mod — simple items to complex combat systems for your server or friends."
+      "title": "Minecraft",
+      "desc": "Plugins, datapacks and mods — from small items to full combat systems."
     },
     "buildGame": {
-      "title": "Build a Game",
-      "desc": "Had a game idea you never got to play? Let's bring it to life — from concept to playable reality."
+      "title": "Games",
+      "desc": "Small games and prototypes, from the first concept to something playable."
     },
-    "contactBtn": "Contact Me"
+    "contactBtn": "Get in touch"
   },
   "work": {
     "headingPrefix": "Things I've",
@@ -72,5 +72,31 @@
     "badgeRepos": "repos",
     "badgeMembership": "membership",
     "badgeChannel": "channel"
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "interLicense": "Inter license",
+    "fontAwesomeLicense": "Font Awesome license"
+  },
+  "privacy": {
+    "title": "Privacy",
+    "controller": "Controller: NeoFoxi, <a href=\"mailto:m@neofoxi.net\">m@neofoxi.net</a>.",
+    "hostingTitle": "Hosting",
+    "hosting": "This site is hosted on GitHub Pages (GitHub Inc., USA). GitHub processes connection data such as your IP address in server logs to deliver and secure the site. Legal basis: Art. 6(1)(f) GDPR; transfer under the EU-US Data Privacy Framework.",
+    "cookiesTitle": "Cookies",
+    "cookiesIntro": "The site stores two first-party cookies, both for one year:",
+    "langCookie": "lang — your language. Set only when you select a non-English language.",
+    "themeCookie": "theme — light or dark mode. Set when you toggle the theme.",
+    "cookiesNote": "Both are technically necessary for the function you requested (§ 25(2)(2) TDDDG), so no consent banner is needed. Legal basis: Art. 6(1)(f) GDPR. You can delete them in your browser at any time.",
+    "githubTitle": "GitHub statistics",
+    "github": "The statistics section loads numbers directly from api.github.com, transmitting your IP address and user agent to GitHub Inc. (USA). Legal basis: Art. 6(1)(f) GDPR; transfer under the EU-US Data Privacy Framework. No cookies are set.",
+    "fontsTitle": "Fonts and icons",
+    "fonts": "Fonts are loaded from Google Fonts and icons from cdnjs (Cloudflare). When the page loads, your IP address and user agent are transmitted to these providers. Legal basis: Art. 6(1)(f) GDPR; transfers are based on the providers' EU-US Data Privacy Framework certification or standard contractual clauses.",
+    "contactTitle": "Contact",
+    "contact": "If you email me, your address and message are processed to answer your request (Art. 6(1)(b) or (f) GDPR) and deleted when no longer needed.",
+    "rightsTitle": "Your rights",
+    "rights": "You have the right to access, rectify, erase, restrict, and port your data, and to object to processing. You may also complain to a supervisory authority. Contact: m@neofoxi.net.",
+    "noTracking": "No analytics, tracking, or automated decision-making is used.",
+    "updated": "Last updated:"
   }
 }

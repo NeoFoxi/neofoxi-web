@@ -8,25 +8,25 @@
     "findMeOn": "Encuéntrame en"
   },
   "help": {
-    "headingPrefix": "¿Cómo puedo",
-    "headingHighlight": "ayudarte?",
+    "headingPrefix": "En qué",
+    "headingHighlight": "trabajo",
     "buildWebsite": {
-      "title": "Crear un sitio web",
-      "desc": "Un sitio web moderno y personalizado según tu visión — rápido, adaptable y hecho para durar."
+      "title": "Sitios web",
+      "desc": "Sitios web modernos y adaptables, con una interfaz cuidada y una arquitectura sólida."
     },
     "buildApp": {
-      "title": "Crear una app",
-      "desc": "Convierte tu idea en una aplicación móvil o web real — del concepto al lanzamiento y más allá."
+      "title": "Aplicaciones",
+      "desc": "Aplicaciones web y móviles, desde la idea inicial hasta algo que se puede usar."
     },
     "minecraft": {
-      "title": "¿Un proyecto de Minecraft?",
-      "desc": "Un plugin, datapack o mod personalizado — desde objetos simples hasta sistemas de combate complejos para tu servidor o amigos."
+      "title": "Minecraft",
+      "desc": "Plugins, datapacks y mods — desde objetos pequeños hasta sistemas de combate completos."
     },
     "buildGame": {
-      "title": "Crear un juego",
-      "desc": "¿Tienes una idea de juego que nunca pudiste probar? Hagámosla realidad — del concepto a una experiencia jugable."
+      "title": "Juegos",
+      "desc": "Juegos pequeños y prototipos, del primer concepto a algo jugable."
     },
-    "contactBtn": "Contáctame"
+    "contactBtn": "Escríbeme"
   },
   "work": {
     "headingPrefix": "Lo que he",
@@ -72,5 +72,31 @@
     "badgeRepos": "repos",
     "badgeMembership": "membresía",
     "badgeChannel": "canal"
+  },
+  "footer": {
+    "privacy": "Privacidad",
+    "interLicense": "Licencia de Inter",
+    "fontAwesomeLicense": "Licencia de Font Awesome"
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "controller": "Responsable: NeoFoxi, <a href=\"mailto:m@neofoxi.net\">m@neofoxi.net</a>.",
+    "hostingTitle": "Alojamiento",
+    "hosting": "Este sitio está alojado en GitHub Pages (GitHub Inc., EE. UU.). GitHub procesa datos de conexión como tu dirección IP en los registros del servidor para entregar y proteger el sitio. Base jurídica: art. 6, apdo. 1, letra f) RGPD; transferencia basada en el Marco de Privacidad de Datos UE-EE. UU.",
+    "cookiesTitle": "Cookies",
+    "cookiesIntro": "El sitio almacena dos cookies propias, ambas durante un año:",
+    "langCookie": "lang — tu idioma. Solo se establece cuando eliges un idioma distinto del inglés.",
+    "themeCookie": "theme — modo claro u oscuro. Se establece cuando cambias el tema.",
+    "cookiesNote": "Ambas son técnicamente necesarias para la función solicitada (§ 25, apdo. 2, n.º 2 TDDDG), por lo que no se necesita un banner de consentimiento. Base jurídica: art. 6, apdo. 1, letra f) RGPD. Puedes eliminarlas en tu navegador en cualquier momento.",
+    "githubTitle": "Estadísticas de GitHub",
+    "github": "La sección de estadísticas carga las cifras directamente desde api.github.com, lo que transmite tu dirección IP y tu user-agent a GitHub Inc. (EE. UU.). Base jurídica: art. 6, apdo. 1, letra f) RGPD; transferencia basada en el Marco UE-EE. UU. No se establecen cookies.",
+    "fontsTitle": "Fuentes e iconos",
+    "fonts": "Las fuentes se cargan desde Google Fonts y los iconos desde cdnjs (Cloudflare). Al cargar la página, tu dirección IP y tu user-agent se transmiten a estos proveedores. Base jurídica: art. 6, apdo. 1, letra f) RGPD; transferencias basadas en la certificación DPF de los proveedores o en cláusulas contractuales tipo.",
+    "contactTitle": "Contacto",
+    "contact": "Si me escribes un correo, tu dirección y tu mensaje se procesan para responder a tu solicitud (art. 6, apdo. 1, letra b) o f) RGPD) y se eliminan cuando ya no son necesarios.",
+    "rightsTitle": "Tus derechos",
+    "rights": "Tienes derecho a acceder, rectificar, suprimir, limitar y portar tus datos, así como a oponerte al tratamiento. También puedes presentar una reclamación ante una autoridad de control. Contacto: m@neofoxi.net.",
+    "noTracking": "No se utilizan análisis, seguimiento ni decisiones automatizadas.",
+    "updated": "Última actualización:"
   }
 }
