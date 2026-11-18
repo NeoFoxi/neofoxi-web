@@ -28,37 +28,6 @@
     },
     "contactBtn": "Escríbeme"
   },
-  "work": {
-    "headingPrefix": "Lo que he",
-    "headingHighlight": "construido",
-    "hardrevival": {
-      "desc": "El proyecto Minecraft HardRevival completo — monté todo el servidor desde cero y programé el mod personalizado detrás de la brutal experiencia PvP hardcore. La página de inicio añade una estética oscura de glitch, clasificaciones en vivo, estadísticas por jugador y un contador de comunidad de Discord en tiempo real.",
-      "tags": [
-        "Servidor de Minecraft",
-        "Mod personalizado",
-        "Página de inicio"
-      ],
-      "features": [
-        "Montaje completo del servidor — infraestructura, configuración y despliegue",
-        "Mod programado a medida: Life Saver, estructuras de muerte y rituales de resurrección",
-        "Página de inicio con clasificación en vivo y contador de Discord"
-      ]
-    },
-    "atelier": {
-      "desc": "Sitio web del Atelier Dufour, un estudio de arte en Biel/Bienne. Un diseño cálido tipo galería con presentación de imágenes a pantalla completa, talleres creativos para niños y jóvenes, y una oferta integral de arcilla (INTON®).",
-      "tags": [
-        "Estudio de arte",
-        "Talleres",
-        "Portafolio"
-      ],
-      "features": [
-        "Galería a pantalla completa con el trabajo del estudio",
-        "Páginas de talleres — chocolate fundido, papel maché, serigrafía, estudio abierto",
-        "Sesiones de arcilla con horarios, precios y contacto"
-      ]
-    },
-    "visit": "Visitar el sitio"
-  },
   "stats": {
     "repositories": "repositorios",
     "commits": "commits / 30d",

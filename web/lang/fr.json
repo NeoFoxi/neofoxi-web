@@ -28,37 +28,6 @@
     },
     "contactBtn": "Écris-moi"
   },
-  "work": {
-    "headingPrefix": "Ce que j'ai",
-    "headingHighlight": "construit",
-    "hardrevival": {
-      "desc": "Le projet Minecraft HardRevival complet — j'ai monté tout le serveur de zéro et programmé le mod sur mesure derrière l'expérience PvP hardcore brutale. La page d'accueil ajoute une esthétique glitch sombre, des classements en direct, des statistiques par joueur et un compteur de communauté Discord en temps réel.",
-      "tags": [
-        "Serveur Minecraft",
-        "Mod sur mesure",
-        "Landing page"
-      ],
-      "features": [
-        "Montage complet du serveur — infrastructure, configuration et déploiement",
-        "Mod programmé sur mesure : Life Saver, structures de mort et rituels de résurrection",
-        "Page d'accueil avec classement en direct et compteur Discord en ligne"
-      ]
-    },
-    "atelier": {
-      "desc": "Site web de l'Atelier Dufour, un atelier d'art à Bienne. Un design chaleureux façon galerie avec diaporama plein écran, des ateliers créatifs pour enfants et jeunes, et une offre intégrale d'argile (INTON®).",
-      "tags": [
-        "Atelier d'art",
-        "Ateliers",
-        "Portfolio"
-      ],
-      "features": [
-        "Diaporama plein écran des travaux de l'atelier",
-        "Pages d'ateliers — chocolat coulé, papier mâché, sérigraphie, atelier ouvert",
-        "Séances d'argile avec horaires, tarifs et contact"
-      ]
-    },
-    "visit": "Visiter le site"
-  },
   "stats": {
     "repositories": "dépôts",
     "commits": "commits / 30j",

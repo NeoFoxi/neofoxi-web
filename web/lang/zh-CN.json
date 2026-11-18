@@ -28,37 +28,6 @@
     },
     "contactBtn": "联系我"
   },
-  "work": {
-    "headingPrefix": "我搭建的",
-    "headingHighlight": "作品",
-    "hardrevival": {
-      "desc": "完整的 HardRevival Minecraft 项目 — 我从零搭建了整个服务器，并编写了残酷 PvP 硬核体验背后的自定义模组。落地页添加了暗黑故障美学、实时排行榜、玩家统计和 Discord 社区实时在线人数。",
-      "tags": [
-        "Minecraft 服务器",
-        "自定义模组",
-        "落地页"
-      ],
-      "features": [
-        "完整的服务器搭建 — 基础设施、配置与部署",
-        "自编程模组：Life Saver、死亡结构和复活仪式",
-        "带实时排行榜和 Discord 在线人数的落地页"
-      ]
-    },
-    "atelier": {
-      "desc": "为位于比尔/比恩的艺术工作室 Atelier Dufour 制作的网站 — 温暖的画廊风格，包含全屏图片轮播、面向儿童和青少年的创意工作坊，以及陶土课程（INTON®）。",
-      "tags": [
-        "艺术工作室",
-        "工作坊",
-        "作品集"
-      ],
-      "features": [
-        "工作室作品的全屏图片轮播",
-        "工作坊页面 — 巧克力浇注、纸浆、丝网印刷、开放工作室",
-        "陶土课程，含时间、价格和联系方式"
-      ]
-    },
-    "visit": "访问网站"
-  },
   "stats": {
     "repositories": "仓库",
     "commits": "提交 / 30天",

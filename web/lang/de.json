@@ -28,37 +28,6 @@
     },
     "contactBtn": "Schreib mir"
   },
-  "work": {
-    "headingPrefix": "Was ich",
-    "headingHighlight": "gebaut habe",
-    "hardrevival": {
-      "desc": "Das komplette HardRevival-Minecraft-Projekt — ich habe den gesamten Server aufgesetzt und die Mod programmiert, die hinter dem brutalen PvP-Hardcore-Erlebnis steckt. Die Landingpage ergänzt dunkles Glitch-Design, Live-Bestenliste, Spielerstatistiken und einen Echtzeit-Discord-Community-Zähler.",
-      "tags": [
-        "Minecraft-Server",
-        "Eigene Mod",
-        "Landingpage"
-      ],
-      "features": [
-        "Kompletter Server-Setup — Infrastruktur, Konfiguration und Deployment",
-        "Selbst programmierte Mod: Life Saver, Todes-Strukturen und Wiederbelebungs-Rituale",
-        "Landingpage mit Live-Bestenliste und Discord-Online-Zähler"
-      ]
-    },
-    "atelier": {
-      "desc": "Website für das Atelier Dufour, ein Kunst-Atelier in Biel/Bienne. Warmes Galerie-Design mit Vollbild-Slideshow, Kreativ-Workshops für Kinder und Jugendliche und einem integralen Tonerde-Angebot (INTON®).",
-      "tags": [
-        "Kunst-Atelier",
-        "Workshops",
-        "Portfolio"
-      ],
-      "features": [
-        "Vollbild-Slideshow mit Bildern aus dem Atelier",
-        "Workshop-Seiten — Schoggi giessen, Pappmaché, Siebdruck, offenes Atelier",
-        "Tonerde-Angebot mit Zeiten, Preisen und Kontakt"
-      ]
-    },
-    "visit": "Zur Website"
-  },
   "stats": {
     "repositories": "Repositorys",
     "commits": "Commits / 30d",

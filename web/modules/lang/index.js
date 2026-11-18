@@ -92,6 +92,21 @@ export function t(key) {
   return value != null ? value : key;
 }
 
+/**
+ * Apply translations to all marked elements in the given root:
+ * `[data-lang]` sets textContent, `[data-lang-html]` sets innerHTML.
+ *
+ * @param {ParentNode} [root=document]
+ */
+export function applyTranslations(root = document) {
+  root.querySelectorAll('[data-lang]').forEach((el) => {
+    el.textContent = t(el.getAttribute('data-lang'));
+  });
+  root.querySelectorAll('[data-lang-html]').forEach((el) => {
+    el.innerHTML = t(el.getAttribute('data-lang-html'));
+  });
+}
+
 /** Subscribe to language changes. Returns an unsubscribe function. */
 export function onChange(fn) {
   listeners.push(fn);

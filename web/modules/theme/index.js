@@ -32,3 +32,18 @@ export function toggleTheme() {
   setTheme(next);
   return next;
 }
+
+/**
+ * Wire a theme toggle button: sets the initial icon and flips the theme
+ * (plus icon) on click.
+ *
+ * @param {HTMLButtonElement} button
+ */
+export function initThemeToggle(button) {
+  const icon = (theme) =>
+    theme === 'dark' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+  button.innerHTML = icon(getTheme());
+  button.addEventListener('click', () => {
+    button.innerHTML = icon(toggleTheme());
+  });
+}
