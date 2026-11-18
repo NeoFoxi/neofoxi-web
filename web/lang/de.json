@@ -12,19 +12,15 @@
     "headingHighlight": "arbeite",
     "buildWebsite": {
       "title": "Webseiten",
-      "desc": "Moderne, responsive Webseiten mit sauberer UI und solider Architektur darunter."
+      "desc": "Moderne, responsive Webseiten mit sauberer UI und stabiler Architektur darunter."
     },
     "buildApp": {
       "title": "Apps",
-      "desc": "Web- und Mobile-Apps — von der ersten Idee bis zu etwas, das man wirklich benutzen kann."
+      "desc": "Web- und Mobile-Apps — sauber gebaut, mit stabiler Architektur und leicht zu bedienen."
     },
     "minecraft": {
       "title": "Minecraft",
-      "desc": "Plugins, Datenpakete und Mods — von kleinen Gegenständen bis zu kompletten Kampfsystemen."
-    },
-    "buildGame": {
-      "title": "Spiele",
-      "desc": "Kleine Spiele und Prototypen — vom ersten Konzept bis zu etwas Spielbarem."
+      "desc": "Individuelle Mods — von kleinen Anpassungen bis komplett neuen Funktionen."
     },
     "contactBtn": "Schreib mir"
   },

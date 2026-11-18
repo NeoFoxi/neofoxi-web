@@ -16,15 +16,11 @@
     },
     "buildApp": {
       "title": "Apps",
-      "desc": "Web and mobile applications, taken from an idea to something people can actually use."
+      "desc": "Web and mobile apps — cleanly built, with solid architecture and easy to use."
     },
     "minecraft": {
       "title": "Minecraft",
-      "desc": "Plugins, datapacks and mods — from small items to full combat systems."
-    },
-    "buildGame": {
-      "title": "Games",
-      "desc": "Small games and prototypes, from the first concept to something playable."
+      "desc": "Custom mods — from small tweaks to entirely new features."
     },
     "contactBtn": "Get in touch"
   },

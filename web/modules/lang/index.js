@@ -6,16 +6,13 @@
 
 const COOKIE_NAME = 'lang';
 const DAYS = 365;
-const SUPPORTED = ['en', 'de', 'fr', 'es', 'zh-CN'];
+const SUPPORTED = ['en', 'de'];
 const FALLBACK = 'en';
 
 /** Native-language display names for the dropdown. */
 const LANG_NAMES = {
   en: 'English',
   de: 'Deutsch',
-  fr: 'Fran\u00e7ais',
-  es: 'Espa\u00f1ol',
-  'zh-CN': '\u7b80\u4f53\u4e2d\u6587',
 };
 
 let currentLang = FALLBACK;
@@ -36,12 +33,6 @@ function writeCookie(value) {
 /** Detect the user's preferred language from the browser. */
 function detectBrowserLang() {
   const raw = navigator.language || navigator.userLanguage || '';
-  const normalized = raw.toLowerCase();
-
-  // Handle Chinese variants
-  if (normalized === 'zh-cn' || normalized === 'zh-hans') return 'zh-CN';
-  if (normalized.startsWith('zh')) return 'zh-CN';
-
   const short = raw.slice(0, 2);
   return SUPPORTED.includes(short) ? short : FALLBACK;
 }
@@ -71,7 +62,7 @@ export async function init() {
   translations = await load(code);
 }
 
-/** Return the active language code (e.g. 'en', 'de', 'zh-CN'). */
+/** Return the active language code (e.g. 'en', 'de'). */
 export function getLang() {
   return currentLang;
 }

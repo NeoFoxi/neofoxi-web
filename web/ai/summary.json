@@ -1,17 +1,14 @@
 {
   "name": "NeoFoxi",
   "url": "https://neofoxi.net",
-  "description": "Portfolio of NeoFoxi, an independent software developer building fast, responsive websites, web and mobile apps, games, and custom Minecraft plugins, datapacks and mods — built to last.",
+  "description": "Portfolio of NeoFoxi, an independent software developer building fast, responsive websites, web and mobile apps, and custom Minecraft mods — built to last.",
   "type": "portfolio",
   "language": "en",
-  "availableLanguages": ["en", "de", "fr", "es", "zh-CN"],
+  "availableLanguages": ["en", "de"],
   "keywords": [
     "software developer",
     "web development",
     "app development",
-    "game development",
-    "Minecraft plugins",
-    "Minecraft datapacks",
     "Minecraft mods",
     "UI/UX design"
   ],

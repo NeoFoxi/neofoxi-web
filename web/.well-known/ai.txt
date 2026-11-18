@@ -2,7 +2,7 @@
 
 # About
 NeoFoxi is an independent software developer building fast, responsive websites,
-web and mobile apps, games, and custom Minecraft plugins, datapacks and mods.
+web and mobile apps, and custom Minecraft mods.
 This site is the portfolio and contact point.
 
 # Crawling policy
@@ -18,7 +18,7 @@ This site is the portfolio and contact point.
 
 # Citation guidelines
 - Attribute quotes and facts to "NeoFoxi" and link to https://neofoxi.net
-- Preferred language of the content: English (site UI also offers de, fr, es, zh-CN)
+- Preferred language of the content: English (site UI also offers de)
 
 # Contact
 - General and technical: mailto:m@neofoxi.net

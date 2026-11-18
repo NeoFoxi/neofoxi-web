@@ -1,11 +1,11 @@
 # NeoFoxi
 
 > NeoFoxi is a software developer building fast, responsive websites, web and
-> mobile apps, games, and custom Minecraft plugins, datapacks and mods.
+> mobile apps, and custom Minecraft mods.
 
 NeoFoxi is an independent software developer focused on intuitive UI/UX on the
 surface and robust architecture underneath. Work spans websites, cross-platform
-apps, game projects, and Minecraft server tooling — software built to last.
+apps, and Minecraft server tooling — software built to last.
 
 ## Core pages
 - [Home](https://neofoxi.net): Portfolio and selected work (HardRevival, Atelier Dufour).

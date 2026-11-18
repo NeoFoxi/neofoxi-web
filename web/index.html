@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio of NeoFoxi, software developer: fast websites, web and mobile apps, games and custom Minecraft plugins, datapacks and mods — built to last." />
+  <meta name="description" content="Portfolio of NeoFoxi, software developer: fast websites, web and mobile apps, and custom Minecraft mods — built to last." />
   <title>NeoFoxi — Software Developer | Web, Apps &amp; Minecraft Modding</title>
   <link rel="canonical" href="https://neofoxi.net" />
   <meta name="robots" content="index, follow" />
@@ -11,7 +11,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NeoFoxi" />
   <meta property="og:title" content="NeoFoxi — Software Developer" />
-  <meta property="og:description" content="Fast websites, web and mobile apps, games and custom Minecraft plugins, datapacks and mods — built to last." />
+  <meta property="og:description" content="Fast websites, web and mobile apps, and custom Minecraft mods — built to last." />
   <meta property="og:url" content="https://neofoxi.net" />
   <meta property="og:image" content="https://neofoxi.net/images/og/neofoxi.webp" />
   <meta property="og:image:width" content="1200" />
@@ -20,24 +20,19 @@
   <meta property="og:locale" content="en_US" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="NeoFoxi — Software Developer" />
-  <meta name="twitter:description" content="Fast websites, web and mobile apps, games and custom Minecraft plugins, datapacks and mods — built to last." />
+  <meta name="twitter:description" content="Fast websites, web and mobile apps, and custom Minecraft mods — built to last." />
   <meta name="twitter:image" content="https://neofoxi.net/images/og/neofoxi.webp" />
   <!-- Inline script to prevent language flash — runs before first paint -->
   <script>
     (function () {
-      var SUPPORTED = ['en','de','fr','es','zh-CN'];
+      var SUPPORTED = ['en','de'];
       var m = document.cookie.match(new RegExp('(^| )lang=([^;]+)'));
       var lang;
       if (m && SUPPORTED.indexOf(m[2]) !== -1) {
         lang = m[2];
       } else {
         var raw = navigator.language || '';
-        var n = raw.toLowerCase();
-        if (n === 'zh-cn' || n === 'zh-hans' || n.slice(0,2) === 'zh') {
-          lang = 'zh-CN';
-        } else {
-          lang = SUPPORTED.indexOf(raw.slice(0,2)) !== -1 ? raw.slice(0,2) : 'en';
-        }
+        lang = SUPPORTED.indexOf(raw.slice(0,2)) !== -1 ? raw.slice(0,2) : 'en';
       }
       document.documentElement.lang = lang;
     })();
@@ -67,12 +62,11 @@
         "name": "NeoFoxi",
         "url": "https://neofoxi.net",
         "jobTitle": "Software Developer",
-        "description": "Software developer building websites, web and mobile apps, games, and custom Minecraft plugins and mods.",
+        "description": "Software developer building websites, web and mobile apps, and custom Minecraft mods.",
         "knowsAbout": [
           "Web development",
           "Mobile app development",
-          "Game development",
-          "Minecraft plugins, datapacks and mods",
+          "Minecraft mods",
           "UI/UX design"
         ],
         "sameAs": [
@@ -163,7 +157,7 @@
             </svg>
           </div>
           <h3 class="help-card__title" data-lang="help.buildApp.title">Apps</h3>
-          <p class="help-card__desc" data-lang="help.buildApp.desc">Web and mobile applications, taken from an idea to something people can actually use.</p>
+          <p class="help-card__desc" data-lang="help.buildApp.desc">Web and mobile apps &mdash; cleanly built, with solid architecture and easy to use.</p>
         </div>
 
         <div class="help-card help-card--productivity animate-fade-in-up animate-delay-3">
@@ -174,18 +168,7 @@
             </svg>
           </div>
           <h3 class="help-card__title" data-lang="help.minecraft.title">Minecraft</h3>
-          <p class="help-card__desc" data-lang="help.minecraft.desc">Plugins, datapacks and mods &mdash; from small items to full combat systems.</p>
-        </div>
-
-        <div class="help-card help-card--business animate-fade-in-up animate-delay-4">
-          <div class="help-card__icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="48" height="48" rx="12" fill="var(--help-card-biz-bg)"/>
-              <path class="icon-fill" d="M16 25a4 4 0 01-4-4v-2a4 4 0 014-4h16a4 4 0 014 4v2a4 4 0 01-4 4H16zm-2-4a2 2 0 002 2h16a2 2 0 002-2v-2a2 2 0 00-2-2H16a2 2 0 00-2 2v2zm7-1h-2v-2h2v2zm4 0h-2v-2h2v2zm4 0h-2v-2h2v2zm-9 6h2v2h-2v-2zm4 0h2v2h-2v-2zm4 0h2v2h-2v-2zm-10 4h12v2H18v-2z" fill="var(--help-card-icon)"/>
-            </svg>
-          </div>
-          <h3 class="help-card__title" data-lang="help.buildGame.title">Games</h3>
-          <p class="help-card__desc" data-lang="help.buildGame.desc">Small games and prototypes, from the first concept to something playable.</p>
+          <p class="help-card__desc" data-lang="help.minecraft.desc">Custom mods &mdash; from small tweaks to entirely new features.</p>
         </div>
 
       </div>

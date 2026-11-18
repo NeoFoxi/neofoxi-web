@@ -24,7 +24,6 @@
   --help-card-yt-bg: #E8DDD0;
   --help-card-grades-bg: #EDE3C8;
   --help-card-prod-bg: #E0D6EB;
-  --help-card-biz-bg: #D0E0EB;
   --help-card-icon: #1c1c1c;
 }
 
@@ -45,7 +44,6 @@
   --help-card-yt-bg: #3d2b1f;
   --help-card-grades-bg: #3d3520;
   --help-card-prod-bg: #2d2638;
-  --help-card-biz-bg: #1f2d3d;
   --help-card-icon: #e6edf3;
 }
 
@@ -832,7 +830,7 @@ footer .container {
    ========================================================= */
 
 .help-section {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 40px clamp(16px, 4vw, 24px) 100px;
 }
@@ -867,7 +865,7 @@ footer .container {
 
 .help-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -898,9 +896,6 @@ footer .container {
 .help-card--productivity:hover {
   background: #e8e0f0 !important;
 }
-.help-card--business:hover {
-  background: #d6e6f5 !important;
-}
 
 [data-theme='dark'] .help-card--youtube:hover {
   background: #3d2b1f !important;
@@ -910,9 +905,6 @@ footer .container {
 }
 [data-theme='dark'] .help-card--productivity:hover {
   background: #2d2638 !important;
-}
-[data-theme='dark'] .help-card--business:hover {
-  background: #1f2d3d !important;
 }
 
 .help-card__icon {
@@ -952,9 +944,6 @@ footer .container {
 .help-card--productivity:hover .help-card__icon svg rect {
   fill: #c3b0e8;
 }
-.help-card--business:hover .help-card__icon svg rect {
-  fill: #a3c9ea;
-}
 
 .help-card--youtube:hover .help-card__icon svg .icon-fill {
   fill: var(--help-card-icon);
@@ -963,9 +952,6 @@ footer .container {
   fill: var(--help-card-icon);
 }
 .help-card--productivity:hover .help-card__icon svg .icon-fill {
-  fill: var(--help-card-icon);
-}
-.help-card--business:hover .help-card__icon svg .icon-fill {
   fill: var(--help-card-icon);
 }
 
