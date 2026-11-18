@@ -26,6 +26,11 @@ function createSocialLink(href, icon, label) {
   a.href = href;
   a.className = 'footer-social-btn';
   a.setAttribute('aria-label', label);
+
+  if (/^https?:\/\//.test(href)) {
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+  }
   a.innerHTML = `<i class="footer-social-icon ${icon}"></i> ${label}`;
   return a;
 }

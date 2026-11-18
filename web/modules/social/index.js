@@ -16,6 +16,11 @@ export function createSocialButton({ href, label, icon, handle, badge }) {
   a.href = href;
   a.className = 'social-btn';
 
+  if (/^https?:\/\//.test(href)) {
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+  }
+
   const iconEl = document.createElement('i');
   iconEl.className = `social-btn-icon ${icon}`;
   a.appendChild(iconEl);

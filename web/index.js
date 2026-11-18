@@ -16,9 +16,9 @@ const SITE = {
   email: 'm@neofoxi.net',
   username: 'NeoFoxi',
   links: {
-    github: '/github',
-    youtube: '/youtube',
-    discord: '/discord',
+    github: 'https://github.com/NeoFoxi',
+    youtube: 'https://youtube.com/@NeoFoxi',
+    discord: 'https://discord.com/users/1416514573900714055',
   },
 };
 
