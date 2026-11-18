@@ -21,8 +21,7 @@
     "minecraft": {
       "title": "Minecraft",
       "desc": "Custom mods — from small tweaks to entirely new features."
-    },
-    "contactBtn": "Get in touch"
+    }
   },
   "stats": {
     "repositories": "repositories",
@@ -30,6 +29,7 @@
     "source": "Live from GitHub"
   },
   "social": {
+    "email": "Email",
     "github": "GitHub",
     "youtube": "YouTube",
     "discord": "Discord",

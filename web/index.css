@@ -661,7 +661,18 @@ a.stat-card:focus-visible {
 .social-btn-label {
   font-weight: 600;
   font-size: 0.85rem;
-  flex: 1;
+  flex-shrink: 0;
+}
+
+.social-btn-handle {
+  font-weight: 500;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  margin-right: auto;
 }
 
 .social-btn-badge {
@@ -702,8 +713,7 @@ footer .container {
   flex-wrap: wrap;
 }
 
-/* Email and legal links */
-.footer-email,
+/* Legal links */
 .footer-legal-link {
   font-size: 0.82rem;
   color: var(--text-secondary);
@@ -712,7 +722,6 @@ footer .container {
   white-space: nowrap;
 }
 
-.footer-email:hover,
 .footer-legal-link:hover {
   color: var(--accent);
 }
@@ -979,29 +988,6 @@ footer .container {
   position: relative;
   z-index: 1;
   color: var(--text-secondary);
-}
-
-.help-contact-btn {
-  display: inline-block;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  text-decoration: underline;
-  text-underline-offset: 4px;
-  margin-top: 20px;
-  margin-left: 16px;
-  transition: opacity var(--transition);
-}
-
-.help-contact-btn:hover {
-  opacity: 0.7;
-}
-
-.help-contact-btn:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: 4px;
 }
 
 @media (max-width: 768px) {

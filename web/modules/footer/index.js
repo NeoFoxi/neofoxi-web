@@ -30,15 +30,6 @@ function createSocialLink(href, icon, label) {
   return a;
 }
 
-/** Create the email link showing the actual address. */
-function createEmailLink(email) {
-  const a = document.createElement('a');
-  a.href = `mailto:${email}`;
-  a.className = 'footer-email';
-  a.textContent = email;
-  return a;
-}
-
 /** Create a plain footer link (privacy page, license files). */
 function createLegalLink(href, label) {
   const a = document.createElement('a');
@@ -51,18 +42,18 @@ function createLegalLink(href, label) {
 export function renderFooter(cfg) {
   const frag = document.createDocumentFragment();
 
-  // Left group: email + license links
+  // Left group: license links
   const leftGroup = document.createElement('div');
   leftGroup.className = 'footer-left';
-  leftGroup.appendChild(createEmailLink(cfg.email));
   for (const def of LEGAL_DEFS) {
     leftGroup.appendChild(createLegalLink(def.href, t(def.key)));
   }
   frag.appendChild(leftGroup);
 
-  // Social links (right side)
+  // Contact and social links (right side)
   const socialGroup = document.createElement('div');
   socialGroup.className = 'footer-socials';
+  socialGroup.appendChild(createSocialLink(`mailto:${cfg.email}`, 'fas fa-envelope', t('social.email')));
   for (const def of SOCIAL_DEFS) {
     const href = cfg.links[def.key];
     if (href) {
