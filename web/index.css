@@ -394,6 +394,12 @@ header .container {
 .animate-delay-7  { animation-delay: 0.56s; }
 .animate-delay-8  { animation-delay: 0.64s; }
 
+/* Skip animation entirely (e.g. elements re-rendered by a language change) */
+.animate-instant {
+  animation: none !important;
+  opacity: 1 !important;
+}
+
 /* =========================================================
    Page-load hero entrance — elements persist across re-renders
    ========================================================= */

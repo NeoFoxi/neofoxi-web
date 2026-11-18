@@ -35,6 +35,9 @@ let cleanupReveal = null;
 
 async function render() {
   const gen = ++renderGen;
+  // Only play scroll-reveal animations on the initial render; re-renders
+  // (e.g. after a language change) must not replay them.
+  const isInitialRender = gen === 1;
 
   // ── Phase 1: Critical (translations) ──
   applyTranslations();
@@ -60,9 +63,10 @@ async function render() {
   // Footer
   document.getElementById('footer-content').replaceChildren(renderFooter(SITE));
 
-  // Observe scroll-reveal elements (cleanup previous observation first)
+  // Observe scroll-reveal elements (cleanup previous observation first);
+  // reveal instantly on re-renders so animations never replay.
   if (cleanupReveal) cleanupReveal();
-  cleanupReveal = observeReveal();
+  cleanupReveal = observeReveal(document, !isInitialRender);
 }
 
 /* ---------- boot ---------- */

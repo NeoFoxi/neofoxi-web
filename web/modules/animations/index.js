@@ -6,17 +6,26 @@
  * into view. Respects `prefers-reduced-motion`.
  *
  * @param {Element} [root=document] - Root element to query within.
+ * @param {boolean} [immediate=false] - Reveal all elements instantly instead of
+ *   observing (used for re-renders, e.g. after a language change).
  * @returns {() => void} Cleanup function to disconnect the observer.
  */
-export function observeReveal(root = document) {
+export function observeReveal(root = document, immediate = false) {
   const els = root.querySelectorAll(
     '.animate-fade-in-up, .animate-fade-in, .animate-scale-in'
   );
   if (!els.length) return () => {};
 
-  // Respect reduced motion — reveal everything immediately
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    els.forEach((el) => el.classList.add('animate-visible'));
+  // Respect reduced motion — reveal everything immediately. `immediate` also
+  // suppresses the animation itself (re-renders must not replay animations).
+  if (
+    immediate ||
+    window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  ) {
+    els.forEach((el) => {
+      el.classList.add('animate-visible');
+      if (immediate) el.classList.add('animate-instant');
+    });
     return () => {};
   }
 
